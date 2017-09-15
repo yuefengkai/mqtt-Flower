@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">护花使者</string>
+    <string name="lab_temp">温度</string>
+    <string name="lab_humidity">湿度</string>
+</resources>

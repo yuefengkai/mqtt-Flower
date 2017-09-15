@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+
+    tools:context="com.gaozengzhi.flower.MainActivity"
+
+    >
+
+
+    <TextView
+        android:id="@+id/txt_humiture"
+        android:layout_width="255dp"
+        android:layout_height="75dp"
+        android:background="@mipmap/shidu"
+        android:gravity="center"
+        android:text="...% "
+        android:textAlignment="textEnd"
+        android:textColor="@color/White"
+        android:textSize="33sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.448" />
+
+    <TextView
+        android:id="@+id/txt_temp"
+        android:layout_width="255dp"
+        android:layout_height="75dp"
+        android:background="@mipmap/wendu"
+        android:gravity="center"
+        android:text="...° "
+        android:textAlignment="textEnd"
+        android:textColor="@color/White"
+        android:textSize="33sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.169" />
+
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@mipmap/off"
+        android:text=" "
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825" />
+
+</android.support.constraint.ConstraintLayout>
